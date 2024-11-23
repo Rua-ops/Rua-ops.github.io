@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bếp Anh Lẩu Thái</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5733;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        /* Các khối hình vuông */
+        .image-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            display: inline-block;
+            background-color: #ddd;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .action-button {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 24px;
+            line-height: 0;
+            width: 50px;
+            height: 50px;
+        }
+
+        .action-button:hover {
+            background-color: #e04e1d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bếp Anh Lẩu Thái</h1>
+    </header>
+    <div class="content">
+        <p>Chào mừng bạn đến với Bếp Anh Lẩu Thái - nơi mang đến những món lẩu Thái ngon và hấp dẫn!</p>
+        <p>Hãy thưởng thức những món ăn tuyệt vời tại đây và tận hưởng không gian ấm cúng của chúng tôi!</p>
+        
+        <!-- Các khối hình vuông với ảnh và nút dấu cộng -->
+        <div class="image-box">
+            <img src="https://via.placeholder.com/200" alt="Hình ảnh 1">
+            <button class="action-button">+</button>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/200" alt="Hình ảnh 2">
+            <button class="action-button">+</button>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/200" alt="Hình ảnh 3">
+            <button class="action-button">+</button>
+        </div>
+    </div>
+</body>
+</html>
